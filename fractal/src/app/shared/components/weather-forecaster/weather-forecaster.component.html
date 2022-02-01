@@ -1,0 +1,8 @@
+<form [formGroup]="weatherForm" class="form">
+  <span class="title form-title">Write position</span>
+  <div class="inputs-wrapper">
+    <input formControlName="cityName" class="city-name" placeholder="City name..." type="text"/>
+  </div>
+
+  <button (click)="onSubmit()" class="btn-submit" type="button">submit</button>
+</form>

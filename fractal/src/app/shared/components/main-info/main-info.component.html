@@ -1,0 +1,17 @@
+<div class="result-weather" *ngIf="weather.description">
+  <span class="title">{{ city }}</span>
+  <div class="main-weather-wrapper">
+    <div class="info-wrapper">
+      <span class="title title-weather">{{ weather.main }}:</span>
+      <span class="subtitle-weather">{{ weather.description }}</span>
+    </div>
+    <div class="info-wrapper">
+      <span class="title title-weather">Wind:</span>
+      <span class="subtitle-weather">{{ wind }} m/s</span>
+    </div>
+    <div class="info-wrapper">
+      <span class="title title-weather">Temperature:</span>
+      <span class="subtitle-weather">{{ temp }}°C</span>
+    </div>
+  </div>
+</div>

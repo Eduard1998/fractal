@@ -1,0 +1,9 @@
+<div class="main-wrapper">
+  <div class="header-wrapper">
+    <span class="title header-title">Weather app</span>
+  </div>
+  <div class="content-wrapper">
+    <app-main-info [weather]="weather" [city]="city" [wind]="wind" [temp]="temp"></app-main-info>
+    <app-weather-forecaster (weather)="setWeather($event)"></app-weather-forecaster>
+  </div>
+</div>

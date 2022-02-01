@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+input {
+  margin: 10px 5px;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: system-ui;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
